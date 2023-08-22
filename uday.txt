@@ -1,0 +1,80 @@
+<Html>  
+<head>  
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="Lavender">  
+<br>  
+<br>  
+<form>  
+<center> <h1>MOHAN BABU UNIVERSITY<h1></center>
+<label> Firstname </label>        
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middlename: </label>    
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>        
+<input type="text" name="lastname" size="15"/> <br> <br>  
+ 
+<label>
+<label>ROLL NO</label>
+<input type="text" name="roll no" size="15"/> <br> <br>  
+Course :  
+</label>
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="MCA">MCA</option>
+</select>  
+<br>  
+<br>    
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+Academic year
+</label>
+<select>
+<option value="2021-2023"/> 2021-2023</option>
+<option value="2019-2021"/> 2019-2021</option>
+<option value="others"/> others</option>
+</select>
+<br>  
+<br>
+
+Event name
+</label>
+<select>
+<option value="Event Name">event</option>
+<option value="paper presentation">paper presentation</option>
+<option value="poster presentation">poster presentation</option>
+<option value="Technical quiz">Technical quiz</option>
+<option value="Cultural activity">Cultural activity</option>
+<option value="sports">sports</option>
+</select>
+<br>
+<br>          
+Phone  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>  
+<input type="text" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>  
+<br> <br>  
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br>  
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html> 
